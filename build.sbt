@@ -1,6 +1,6 @@
 libraryDependencies += "org.scala-stm" %% "scala-stm" % "0.7"
 
-libraryDependencies += "com.qifun" %% "json-stream" % "0.2.0-SNAPSHOT" % "provided"
+libraryDependencies += "com.qifun" %% "json-stream" % "0.2.1" % "provided"
 
 libraryDependencies += "com.novocode" % "junit-interface" % "0.10" % Test
 
@@ -16,7 +16,7 @@ organization := "com.qifun"
 
 name := "json-stream-bson"
 
-version := "0.1.0-SNAPSHOT"
+version := "0.1.0"
 
 homepage := Some(url(s"https://github.com/qifun/${name.value}"))
 
