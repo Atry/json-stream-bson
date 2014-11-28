@@ -1,3 +1,5 @@
+resolvers in ThisBuild += "Typesafe repository releases" at "http://repo.typesafe.com/typesafe/releases/"
+
 libraryDependencies += "org.scala-stm" %% "scala-stm" % "0.7"
 
 libraryDependencies += "com.qifun" %% "json-stream" % "0.2.1" % "provided"
